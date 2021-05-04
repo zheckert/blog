@@ -1,0 +1,66 @@
+baseurl = "https://example.com"
+languageCode = "en"
+title = "My Blog"
+theme = "kiss"
+disqusShortname = "shortname"
+googleAnalytics = ""
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Zach Heckert" # Author full name
+authorEmail = "zach@zachheckert.com" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = false # Adds powered by hugo and kiss below Copyright
+related = false # Includes related articles at the bottom of the article
+codeCopy = false # Add copy button above code blocks
+taxonomiesCount = true # Add taxonomies count
+
+[params.features]
+disqusOnDemand = false  # Load Disqus comments on click
+
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = ""
+github = "zheckert"
+email = ""
+linkedin = "zachheckert"
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github", "linkedin"]
+
+[params.matomoAnalytics]
+siteID = 0
+rootURL = "//matomo.example.com/"
+
+[params.fathomAnalytics]
+rootURL = "//fathom.example.com/"
+
+[params.hotjarAnalytics]
+hjid = 0
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
