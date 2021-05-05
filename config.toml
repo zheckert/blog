@@ -44,10 +44,11 @@ linkedin = "zachheckert"
 facebook = ""
 instagram = ""
 codepen = ""
+zachlogo = ""
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["github", "linkedin"]
+platforms = ["github", "linkedin", "zachlogo"]
 
 [params.matomoAnalytics]
 siteID = 0
